@@ -26,6 +26,7 @@ while Game_running:
     player2play = True
     
     if (mainarr[0] == mainarr [1] == mainarr[2] == ' X  ') or (mainarr[3] == mainarr [4] == mainarr[5] == ' X  ') or (mainarr[6] == mainarr [7] == mainarr[8] == ' X  ') or (mainarr[0] == mainarr [3] == mainarr[6] == ' X  ') or (mainarr[1] == mainarr [4] == mainarr[7] == ' X  ') or (mainarr[2] == mainarr [5] == mainarr[8] == ' X  ') or (mainarr[0] == mainarr [4] == mainarr[8] == ' X  ') or (mainarr[2] == mainarr [4] == mainarr[6] == ' X  '):
+        print('you have won the game')
         Game_running = False
         player2play = False
     while player2play:
